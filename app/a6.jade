@@ -1,0 +1,20 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Top Movies
+    link(rel='stylesheet', href='./css/a6.css')
+  body
+    h1 Top Movies
+
+    input#movie(type='text' autofocus=true placeholder='Number of Movies')
+    input#score(type='text' placeholder='With a Score Of')
+    button#get Get Movies
+    #output
+
+    script(src='./js/vendor/traceur.js')
+    script(src='./js/vendor/experimental.js')
+    script(src='./js/vendor/jquery-2.1.0.js')
+    script(src='./js/vendor/lodash-2.4.1.js')
+    script(src='./js/vendor/moment-2.6.0.js')
+    script(src='./js/es6/a6.js')
